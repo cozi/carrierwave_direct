@@ -40,9 +40,6 @@ module CarrierWaveDirect
             :etag => "\"d41d8cd98f00b204e9800998ecf8427\""
           })
 
-          # click the button
-          click_button button_locator
-
           # simulate success redirect
           visit redirect_url.to_s
         else
